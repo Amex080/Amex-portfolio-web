@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "https://www.codebyamex.com/*"
+  to = "https://codebyamex.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://friendly-faun-443693.netlify.app/*"
+  to = "https://codebyamex.com/:splat"
+  status = 301
+  force = true
