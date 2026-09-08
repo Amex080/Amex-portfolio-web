@@ -3,226 +3,248 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Amex Dev Portfolio</title>
+  <meta name="description" content="Kareem Saheed is a full-stack engineer and Webflow expert building fast, thoughtful digital products." />
+  <meta name="theme-color" content="#14130f" />
+  <title>Kareem Saheed — Full-Stack Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <div class="logo">Amex Dev.</div>
-    <nav>
-      <ul>
-        <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="page-grain" aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <a class="logo" href="#home" aria-label="Kareem Saheed, home">
+      <span>KS</span>
+      <span class="logo-name">Kareem Saheed</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+      <span></span>
+      <span></span>
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+
+    <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Expertise</a>
+      <a href="#projects">Work</a>
+      <a href="#contact" class="nav-cta">Let’s talk <span aria-hidden="true">↗</span></a>
     </nav>
   </header>
 
-  <section class="hero" id="home">
-    <div class="hero-text">
-      <h1>Hi, I’m <span>Kareem Saheed</span></h1>
-      <h3>Experienced Full-Stack Engineer and Webflow Expert</h3>
-      <p>I design and develop fast, scalable, responsive, modern and SEO-optimized web applications. My focus is on delivering high performance solutions that enhance user experience and drive business growth.</p>
-      <a href="files/Amex-Kareem-Saheed-CV.pdf" download class="btn">Download CV</a>
-      
-
-
-      <div class="socials">
-        <a href="https://www.linkedin.com/in/saheed-kareem-134742260/"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="20" alt="LinkedIn"></a>
-        <a href="https://x.com/amex109?s=21"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" width="20" alt="Twitter"></a>
-        <a href="https://www.facebook.com/share/1BSbVScfnq/?mibextid=wwXIfr"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" width="20" alt="Facebook"></a>
-        <a href="https://www.instagram.com/amex__01?igsh=NWN2a2JyazBzaHh6"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" width="20" alt="Instagram"></a>
-      </div>
-    </div>
-
-    <div class="hero-img">
-      <img src="images/amex-profile.png" alt="Kareem Saheed" />
-    </div>
-  </section>
-
-  <section class="about" id="about">
-    <h2>About <span>Me</span></h2>
-  
-    <div class="about-card">
-      <h3>Hello! I'm Kareem Saheed</h3>
-      <p>
-        I'm a passionate Web Developer who loves transforming creative ideas into
-        fully functional digital experiences. I specialize in building responsive
-        and user-focused websites using HTML, CSS, JavaScript, Node.js, and Express.
-        I also enjoy working with APIs, databases (PostgreSQL), and tools that make
-        web applications dynamic and interactive.
-        <br /><br />
-        Currently, I’m pursuing a degree in Computer Science at Ekiti State University,
-        where I’m sharpening both my technical and problem-solving skills. I’m always
-        curious, learning, and experimenting with new technologies to become a stronger
-        full-stack developer.
-        <br /><br />
-        When I’m not coding, you’ll probably find me analyzing Forex charts, gaming, or
-        designing creative content that reflects my love for tech and innovation. My goal
-        is simple: keep building impactful projects that blend creativity, technology, and
-        real-world value.
-      </p>
-    </div>
-  </section>
-  
-
-  <section class="skills" id="skills">
-    <h2>Skills</h2>
-  
-    <div class="skills-grid">
-      <!-- Frontend -->
-      <div class="skill-card">
-        <h3><span>Frontend</span> Skills</h3>
-        <div class="skill-tags">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JAVASCRIPT</span>
-          <span>BOOTSTRAP</span>
-          <span>REACT.JS</span>
-        </div>
-      </div>
-  
-      <!-- Backend -->
-      <div class="skill-card">
-        <h3><span>Backend</span> Skills</h3>
-        <div class="skill-tags">
-          <span>NODE.JS</span>
-          <span>EXPRESS.JS</span>
-          <span>RESTful APIs</span>
-          <span>AUTHENTICATION</span>
-        </div>
-      </div>
-  
-      <!-- Database -->
-      <div class="skill-card">
-        <h3><span>DATA</span>BASE</h3>
-        <div class="skill-tags">
-          <span>MONGODB</span>
-          <span>POSTGRES SQL</span>
-          <span>My SQL</span>
-          <span>CRUD</span>
-        </div>
-      </div>
-  
-      <!-- Tools -->
-      <div class="skill-card">
-        <h3><span>TOOL</span> & <span>VERSION CONTROL</span></h3>
-        <div class="skill-tags">
-          <span>GIT/GITHUB</span>
-          <span>VS CODE</span>
-          <span>NPM</span>
-          <span>POSTMAN</span>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  
-  <section class="projects" id="projects">
-    <h2>My <span>Projects</span></h2>
-  
-    <div class="project">
-      <img src="images/restaurant.png" alt="Restaurant Website" />
-      <div class="project-info">
-        <h3>Bellonis Restaurant Website</h3>
-        <p>
-          A responsive restaurant website featuring a food menu, cart preview, and modern design.
-          Built with HTML, CSS, and JavaScript to simulate an online ordering system.
+  <main id="main-content">
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Full-stack engineer · Webflow expert</p>
+        <h1 class="reveal">I build digital products that <em>feel</em> as good as they perform.</h1>
+        <p class="hero-intro reveal">
+          I’m Kareem Saheed, a developer focused on fast, responsive and scalable web experiences that turn thoughtful ideas into useful products.
         </p>
-        <a href="https://amex080.github.io/RestaurantF1/" class="btn-outline" target="_blank">Live demo</a>
+        <div class="hero-actions reveal">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="files/Sample%20Web%20Developer%20Resume%20Template.pdf" download="Kareem-Saheed-Resume.pdf">Download résumé <span aria-hidden="true">↗</span></a>
+        </div>
       </div>
-    </div>
-  
-    <div class="project">
-      <img src="images/keeper.png" alt="Keeper App" />
-      <div class="project-info">
-        <h3>Keeper App</h3>
-        <p>
-          A note-taking app built with React and Material UI.
-          Users can add and delete notes, with a simple and responsive Google Keep-inspired layout.
-        </p>
-        <a href="https://y2ddvv.csb.app/" class="btn-outline" target="_blank">Live demo</a>
-      </div>
-    </div>
-  
-    <div class="project">
-      <img src="images/secret.png" alt="Secret Sharing App" />
-      <div class="project-info">
-        <h3>Secret Sharing App</h3>
-        <p>
-          A React.js and Node.js app that lets users anonymously post their secrets.
-          It uses Express and EJS for server-side rendering.
-        </p>
-        <a href="https://y2ddvv.csb.app/" class="btn-outline" target="_blank">Live demo</a>
-      </div>
-    </div>
-  </section>
-  
 
-  <section class="contact" id="contact">
-    <h2>CONTACT <span>ME</span></h2>
-  
-    <form class="contact-form" action="https://formspree.io/f/mjkpnobv" method="POST">
-      <div class="form-row">
-        <div class="form-group">
-          <label>Name</label>
-          <input type="text" name="name" placeholder="Your name" required />
+      <div class="hero-visual reveal">
+        <div class="portrait-frame">
+          <span class="portrait-index" aria-hidden="true">01 / 04</span>
+          <img src="images/amex-profile.png" alt="Portrait of Kareem Saheed" />
+          <p>Based in Nigeria<br />Working worldwide</p>
         </div>
-  
-        <div class="form-group">
-          <label>Company</label>
-          <input type="text" name="company" placeholder="Your company" />
+        <div class="availability-badge">
+          <span></span>
+          Available for select projects
         </div>
       </div>
-  
-      <div class="form-row">
-        <div class="form-group">
-          <label>E-Mail</label>
-          <input type="email" name="email" placeholder="example@email.com" required />
+
+      <div class="hero-side-note" aria-hidden="true">Scroll to discover</div>
+    </section>
+
+    <section class="marquee" aria-label="Services">
+      <div class="marquee-track">
+        <span>Frontend Development</span><i></i>
+        <span>Backend Systems</span><i></i>
+        <span>Webflow</span><i></i>
+        <span>Product Thinking</span><i></i>
+        <span>Frontend Development</span><i></i>
+        <span>Backend Systems</span><i></i>
+        <span>Webflow</span><i></i>
+        <span>Product Thinking</span><i></i>
+      </div>
+    </section>
+
+    <section class="about section-shell" id="about">
+      <div class="section-label reveal">
+        <span>01</span>
+        <p>About</p>
+      </div>
+
+      <div class="about-content">
+        <h2 class="section-title reveal">Curious by nature.<br /><em>Intentional</em> by design.</h2>
+        <div class="about-grid">
+          <p class="about-lead reveal">
+            I transform creative ideas into functional digital experiences, balancing clean interfaces with reliable engineering.
+          </p>
+          <div class="about-body reveal">
+            <p>I work across HTML, CSS, JavaScript, React, Node.js and Express, connecting thoughtful frontends to APIs and databases that make products genuinely useful.</p>
+            <p>I’m also studying Computer Science at Ekiti State University, sharpening the problem-solving foundation behind every project I build.</p>
+            <p>Away from the editor, I’m usually analysing Forex charts, gaming or exploring new ways to blend technology with creative work.</p>
+          </div>
         </div>
-  
-        <div class="form-group">
-          <label>Phone</label>
-          <input type="text" name="phone" placeholder="+234 000 0000" />
+
+        <div class="about-facts reveal">
+          <div><strong>Full-stack</strong><span>End-to-end development</span></div>
+          <div><strong>Webflow</strong><span>Visual builds with precision</span></div>
+          <div><strong>SEO-ready</strong><span>Fast and discoverable</span></div>
         </div>
       </div>
-  
-      <div class="form-group full-width">
-        <label>Message</label>
-        <textarea name="message" rows="3" placeholder="Write your message..." required></textarea>
-        <button type="submit" class="arrow-btn">➜</button>
+    </section>
+
+    <section class="skills section-shell" id="skills">
+      <div class="section-label reveal">
+        <span>02</span>
+        <p>Expertise</p>
       </div>
-    </form>
-  
-    <div class="alt-contact">
-      <p>Hate contact forms?</p>
-      <p>Me too → <a href="mailto:amex.webdev@gmail.com">amex.webdev@gmail.com</a></p>
-    </div>
-  </section>
-  
-  <footer>
-    <div class="footer-top">
-      <h3>Amex Dev <span>.</span></h3>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  
-    <hr />
-  
-    <p class="footer-bottom">© 2025 Amex Dev. All Rights Reserved.</p>
+
+      <div class="skills-content">
+        <h2 class="section-title reveal">A practical toolkit for<br />the <em>whole</em> product.</h2>
+
+        <div class="skill-list">
+          <article class="skill-row reveal">
+            <span class="skill-number">01</span>
+            <h3>Frontend</h3>
+            <p>Responsive interfaces with clear hierarchy, smooth interaction and strong attention to detail.</p>
+            <div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span><span>React.js</span></div>
+          </article>
+          <article class="skill-row reveal">
+            <span class="skill-number">02</span>
+            <h3>Backend</h3>
+            <p>Reliable server-side experiences, from application logic to secure authentication flows.</p>
+            <div class="skill-tags"><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>Authentication</span></div>
+          </article>
+          <article class="skill-row reveal">
+            <span class="skill-number">03</span>
+            <h3>Data</h3>
+            <p>Structured data models and CRUD workflows that keep applications useful and maintainable.</p>
+            <div class="skill-tags"><span>MongoDB</span><span>PostgreSQL</span><span>MySQL</span><span>CRUD</span></div>
+          </article>
+          <article class="skill-row reveal">
+            <span class="skill-number">04</span>
+            <h3>Workflow</h3>
+            <p>Modern tools for version control, API testing and efficient collaboration from idea to launch.</p>
+            <div class="skill-tags"><span>Git & GitHub</span><span>VS Code</span><span>NPM</span><span>Postman</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-shell" id="projects">
+      <div class="section-label reveal">
+        <span>03</span>
+        <p>Selected work</p>
+      </div>
+
+      <div class="projects-content">
+        <div class="projects-heading reveal">
+          <h2 class="section-title">A few things I’ve<br /><em>brought to life.</em></h2>
+          <p>Selected builds exploring commerce, productivity and community.</p>
+        </div>
+
+        <article class="project-card project-featured reveal">
+          <a class="project-image" href="https://amex080.github.io/RestaurantF1/" target="_blank" rel="noopener noreferrer" aria-label="View Bellonis Restaurant Website live demo">
+            <img src="images/restaurant.png" alt="Bellonis restaurant website interface" loading="lazy" />
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-meta">
+            <p>Web design · Frontend</p>
+            <span>2025</span>
+          </div>
+          <h3>Bellonis Restaurant</h3>
+          <p class="project-description">A responsive restaurant experience with menu browsing, cart preview and a polished online ordering flow.</p>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <a class="project-image" href="https://y2ddvv.csb.app/" target="_blank" rel="noopener noreferrer" aria-label="View Keeper App live demo">
+              <img src="images/keeper.png" alt="Keeper note-taking application interface" loading="lazy" />
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-meta"><p>React · Material UI</p><span>2025</span></div>
+            <h3>Keeper App</h3>
+            <p class="project-description">A clean, responsive note-taking app inspired by Google Keep, with simple add and delete interactions.</p>
+          </article>
+
+          <article class="project-card project-offset reveal">
+            <a class="project-image" href="https://y2ddvv.csb.app/" target="_blank" rel="noopener noreferrer" aria-label="View Secret Sharing App live demo">
+              <img src="images/secret.png" alt="Secret sharing application interface" loading="lazy" />
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-meta"><p>Node.js · Express · EJS</p><span>2025</span></div>
+            <h3>Secret Sharing App</h3>
+            <p class="project-description">An anonymous community application where people can share thoughts through a focused, privacy-first flow.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-intro section-shell">
+        <div class="section-label reveal">
+          <span>04</span>
+          <p>Contact</p>
+        </div>
+        <div class="contact-heading reveal">
+          <p>Have a project in mind?</p>
+          <h2>Let’s make something<br /><em>worth remembering.</em></h2>
+        </div>
+      </div>
+
+      <div class="contact-layout section-shell">
+        <div class="contact-direct reveal">
+          <p>Prefer email?</p>
+          <a href="mailto:amex.webdev@gmail.com">amex.webdev@gmail.com</a>
+          <div class="social-links" aria-label="Social media links">
+            <a href="https://www.linkedin.com/in/saheed-kareem-134742260/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a href="https://x.com/amex109?s=21" target="_blank" rel="noopener noreferrer">X / Twitter <span aria-hidden="true">↗</span></a>
+            <a href="https://www.instagram.com/amex__01?igsh=NWN2a2JyazBzaHh6" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" action="https://formspree.io/f/mjkpnobv" method="POST">
+          <div class="form-field">
+            <label for="name">Your name</label>
+            <input id="name" type="text" name="name" autocomplete="name" placeholder="Kareem Saheed" required />
+          </div>
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input id="email" type="email" name="email" autocomplete="email" placeholder="hello@example.com" required />
+          </div>
+          <div class="form-field">
+            <label for="company">Company <span>(optional)</span></label>
+            <input id="company" type="text" name="company" autocomplete="organization" placeholder="Your company" />
+          </div>
+          <div class="form-field">
+            <label for="message">Tell me about the project</label>
+            <textarea id="message" name="message" rows="4" placeholder="A little about your idea, timeline and goals..." required></textarea>
+          </div>
+          <div class="form-submit">
+            <p class="form-status" role="status" aria-live="polite"></p>
+            <button class="button button-light" type="submit">Send enquiry <span aria-hidden="true">↗</span></button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo footer-logo" href="#home" aria-label="Back to top"><span>KS</span><span class="logo-name">Kareem Saheed</span></a>
+    <p>Full-stack engineer and Webflow expert.</p>
+    <p>© <span data-year></span> Kareem Saheed</p>
   </footer>
-  
-  
-  
 
   <script src="script.js"></script>
 </body>
